@@ -1,8 +1,11 @@
 # Tertiary Class
 
 require_relative "mammal.rb"
+require_relative "flight.rb"
 
 class Bat < Mammal
+
+  include Flight
 
   def initialize(name)
     super

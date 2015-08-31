@@ -9,6 +9,7 @@ puts bat_example.name
 puts bat_example.num_of_legs
 puts bat_example.method_of_movement
 puts bat_example.warm_blooded?
+puts bat_example.fly
 
 frog_example = Frog.new("frogger")
 puts frog_example.name
@@ -27,3 +28,4 @@ puts parrot_example.name
 puts parrot_example.num_of_legs
 puts parrot_example.method_of_movement
 puts parrot_example.warm_blooded?
+puts parrot_example.fly

@@ -1,8 +1,11 @@
 # Secondary Class
 
 require_relative "animal.rb"
+require_relative "flight.rb"
 
 class Bird < Animal
+
+  include Flight
 
   def initialize(name)
     super
